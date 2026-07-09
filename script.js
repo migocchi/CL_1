@@ -7,7 +7,6 @@ document.querySelectorAll('.butterfly').forEach(function (el) {
     var minY1 = 350;
     var randomY1 = Math.floor(Math.random() * (maxY1 - minY1 + 1)) + minY1;
 
-    // ランダムな位置を代入
     el.style.left = randomX1 + "px";
     el.style.top = randomY1 + "px";
 
@@ -25,7 +24,6 @@ document.querySelectorAll('.enemy').forEach(function (en) {
     var minY2 = 190;
     var randomY2 = Math.floor(Math.random() * (maxY2 - minY2 + 1)) + minY2;
 
-    // ランダムな位置を代入
     en.style.left = randomX2 + "px";
     en.style.top = randomY2 + "px";
 
