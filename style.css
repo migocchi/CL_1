@@ -1,0 +1,88 @@
+img {
+
+}
+
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+ pointer-events: none;
+}
+
+#bgt {
+  position: absolute;
+ left: 25px;
+ top: 40px;
+ width: 410px;
+ height: 90px;
+ background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text {
+  position: absolute;
+  margin: 0;
+  font-size: 22px;
+  color: #dc0b5c;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#t1 {
+  left: 5px; top: 5px;
+}
+
+#t2 {
+  left: 5px; top: 40px;
+}
+
+.butterfly {
+  position: absolute;
+  width: 70px;
+  height: 60px;
+  transition: left 0.5s ease, top 0.5s ease;
+
+}
+
+#bt1 {
+  left: 150px;
+  top: 410px;
+}
+
+#bt2 {
+  left: 380px; 
+  top: 350px;
+}
+
+#bt3 {
+  left: 600px; 
+  top: 430px;
+}
+
+
+.enemy{
+  position: absolute;
+  width: 30px; 
+  height: 30px;
+  transition: left 0.5s ease, top 0.5s ease;
+}
+
+#f1 {
+  left: 450px; top: 210px;
+}
+
+#f2 {
+  left: 500px; top: 210px;
+}
+
+#f3 {
+  left: 550px; top: 210px;
+}
+
+#f4 {
+  left: 600px; top: 210px;
+}
+
+#f5 {
+  left: 800px; top: 260px;
+}
